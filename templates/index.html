@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jotto Game</title>
+    <link rel="stylesheet" href="../static/css/styles.css" />
+    <script src="/static/script/app.js" defer></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">Jotto Solver</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li><a href="#">Probability</a></li>
+          <li><a href="#">Algorithms</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+      <button class="cta-btn">Get Started</button>
+    </header>
+
+    <section class="hero-section">
+      <label for="wordLength">Select Word Length: </label>
+      <select id="wordLength">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <label>
+        <input type="checkbox" id="uniqueOnly" /> Use Unique Letters Only
+      </label>
+      <button id="startGame">Start Game</button>
+
+      <h2>Suggested Guess: <span id="suggestion"></span></h2>
+
+      <label for="feedback">Matching Letters: </label>
+      <input type="number" id="feedback" min="0" />
+      <button id="submitFeedback">Submit Feedback</button>
+      <h1>How It Works</h1>
+      <p>
+        Mathematically analyze the probability of success for the computer in a
+        given number of iterations and the probability of a player winning
+        against the computer.
+      </p>
+    </section>
+
+    <section class="cards-section">
+      <div class="card">
+        <h3>Part 1: Probability of Computer Success</h3>
+        <p>
+          Understand how feedback partitions help reduce the candidate set and
+          analyze success probabilities.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Part 2: Player vs Computer</h3>
+        <p>
+          Explore key factors, feedback analysis, and probability models for a
+          player winning against the computer.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Graph Algorithms</h3>
+        <p>
+          Leverage graph-based heuristics to maximize connectivity and optimize
+          guesses.
+        </p>
+      </div>
+    </section>
+
+    <section class="details-section">
+      <h2>Mathematical Formulation</h2>
+      <p>
+        Dive deep into the mathematical formulation of the Jotto problem,
+        including graph representation, win strategies, and example
+        calculations.
+      </p>
+      <a href="#" class="details-btn">Learn More</a>
+    </section>
+
+    <footer class="main-footer">
+      <p>
+        Developed by Prakhar Srivastava, Dakshi Arora, and Parag Garg under the
+        supervision of Dr. Ranjib Banerjee, BML Munjal University, Gurugram.
+      </p>
+    </footer>
+  </body>
+</html>
