@@ -34,7 +34,8 @@ This project is accompanied by a **research paper** exploring the mathematical i
 4. **Continue the process** until the correct word is found.
 
 ## Research Paper
-This project is backed by an ongoing **research paper** that delves into the mathematical principles behind the Jotto game. The paper discusses:
+This project is backed by an ongoing **research paper** that delves into the mathematical principles behind the Jotto game. 
+The paper discusses:
 - **Graph Theory & Set Theory** applications in word elimination.
 - **Information Theory** for optimal word selection strategies.
 - **Algorithmic Complexity** of solving the Jotto problem.
