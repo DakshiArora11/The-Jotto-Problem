@@ -14,7 +14,7 @@ This project is accompanied by a **research paper** exploring the mathematical i
 - 🎯 **Optimized Word Selection**: Utilizes heuristics to choose the most informative guesses.
 
 ## Features
-- 🔍 **Smart Word Deduction**: Filters words based on matching letter counts.
+- 🔍 **Optimised Word Deduction**: Filters words based on matching letter counts.
 - 📊 **Mathematical Strategy**: Applies combinatorial techniques for efficient guessing.
 - 🚀 **Fast & Optimized**: Implements search and pruning methods to reduce computation time.
 - 🌐 **Web-Based Interface**: Deployed on **Vercel** for easy access.
