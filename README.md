@@ -23,7 +23,7 @@ This project is accompanied by a **research paper** exploring the mathematical i
 - **Programming Language**: Python, JavaScript
 - **Frameworks & Libraries**:
   - Flask (Backend)
-  - React, HTML, CSS (Frontend)
+  - HTML, CSS (Frontend)
   - NumPy, Pandas (Data Processing)
 - **Deployment**: **Vercel** (for hosting)
 
@@ -38,17 +38,3 @@ This project is backed by an ongoing **research paper** that delves into the mat
 - **Graph Theory & Set Theory** applications in word elimination.
 - **Information Theory** for optimal word selection strategies.
 - **Algorithmic Complexity** of solving the Jotto problem.
-
-## Contributing
-We welcome contributions!
-1. **Fork the repository** and create a new branch.
-2. **Make your improvements** and submit a pull request.
-3. **Discuss your approach** in the pull request description.
-
-## Contact
-- **Author**: Dakshi Arora
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub](https://github.com/your-username)
-
----
-🚀 **Enjoy the game and explore the mathematics behind it!**
